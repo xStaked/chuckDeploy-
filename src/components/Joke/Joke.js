@@ -37,7 +37,7 @@ function Joke({ match }) {
       <h2 className="joke-title">
         {category
           ? category.charAt(0).toUpperCase() + category.slice(1)
-          : "Random"}{" "}
+          : "Random"}
         Joke
       </h2>
       <div className="joke-container">

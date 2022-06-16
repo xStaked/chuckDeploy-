@@ -17,7 +17,7 @@ function App() {
           <Categories />
         </div>
         <Routes>
-          {['/', '/random', '/random/'].map((path) => (
+          {[ '/','/random', '/random/'].map((path) => (
             <Route
               key={path}
               path={path}

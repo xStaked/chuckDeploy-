@@ -1,0 +1,27 @@
+.btn-dark > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.joke-title {
+    text-align: center;
+    font-weight: 700;
+}
+
+.joke-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.joke-value > i {
+    font-size: 1.6rem;
+    color: rgb(41, 46, 44);
+}
+
+@media (max-width:767px) {
+    blockquote {
+        width: 90%;
+    }
+}

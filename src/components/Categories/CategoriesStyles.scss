@@ -1,0 +1,31 @@
+.title {
+    font-weight: 800;
+}
+
+.btn-dark {
+    margin:5px;
+    &:hover {
+        background-color: transparent !important;
+        background-color: rgb(54, 54, 54) !important;
+        border-color:rgb(54, 54, 54) ;
+        color: #000 !important;
+    }
+    > a:hover {
+        color: #fff !important;
+    }
+}
+
+@media(max-width:767px) {
+    .title {
+        text-align: center;
+        margin-top: 2rem
+    }
+    .categories {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-bottom: 2rem;
+        width: 95%;
+    }
+}
